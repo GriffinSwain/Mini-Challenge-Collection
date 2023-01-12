@@ -1,0 +1,69 @@
+.body{
+    background-color:cadetblue;
+}
+
+.bgHome{
+    background-image: url(../Assets/image-asset.jpeg);    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.homeHeader{
+    color: aliceblue;
+    text-shadow: 5px 5px 5px #000;
+}
+
+.bgPage1{
+    background-image: url(../Assets/princess-mononoke-ForestSpirit.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgPage2{
+    background-image: url(../Assets/GreatDekuTree.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgPage3{
+    background-image: url(../Assets/WitchHead.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgPage4{
+    background-image: url(../Assets/beautiful-studio-ghibli-scenery-forest.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgPage5{
+    background-image: url(../Assets/Totoro-Rock.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgPage6{
+    background-image: url(../Assets/MagicForest.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgPage7{
+    background-image: url(../Assets/GnomeTreeHouse.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgPage8{
+    background-image: url(../Assets/ShrekBook.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgPage9{
+    background-image: url(../Assets/ForestVillage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
