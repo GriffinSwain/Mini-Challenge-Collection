@@ -7,35 +7,56 @@
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   </head>
-  <body class="body">
+  <body class="bgPage2">
+
+    <nav class="navbar bg-dark">
+        <div class="container">
+            <div class="row">
+                <a class="navbar-brand" onclick="location.href='../index.html'" href="#">
+                    <div class="col-1">
+                        <h5 class="navbarHome">Home</h5>
+                    </div>
+                    <div class="col-1">
+                        <h1 class="navbarTitleLg d-flex">Add Two Numbers</h1>
+                        <h3 class="invisible">Test</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </nav>
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12">
-                <h1 class="text-center mt-5">Add 2 Numbers</h1>
-            </div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-6">
-            <input id="num1Input" type="text" class="form w-50" placeholder="Enter a number">
-        </div>
-        <div id="" class="col-6">
-            <input id="num2Input" type="text" class="form w-50" placeholder="Enter another number">
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-6">
-            <button type="button" id = "2NumSubBtn" class="btn btn-success">Submit Numbers</button>
+            <div class="col-4"></div>
             <div class="col-6">
-                <h1 id="num1Return">Hi</h1>
+                <h1 class="text-center mt-5 numberRequest">Give me two numbers to add together</h1>
+            </div>
+            <div class="col-2"></div>
+        </div>
+        
+        <div class="row">
+            <div class="col-2">
+                <input id="num1Input" type="text" class="form w-100 numberInput" placeholder="Enter a number">
+            </div>
+            <div class="col-2">
+                <input id="num2Input" type="text" class="form w-100 numberInput" placeholder="Enter another number">
+            </div>
+        </div>
+        <div class="col-6">
+        </div>
+        <div class="col-6"></div>
+        
+        <div class="row">
+            <div class="col-6">
+                <button type="button" id = "2NumSubBtn" class="btn btn-success submitNumbers">Submit Numbers</button>
+                <h1 id="num1Return" class="sumReturn"></h1>
+                <div class="col-6">
+                </div>
             </div>
         </div>
     </div>
-
+        
     <script src="../scripts/page2.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-  </body>
+</body>
 </html>
