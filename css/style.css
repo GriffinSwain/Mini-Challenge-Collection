@@ -39,6 +39,7 @@
     position: absolute;
     font-family: PhilosopherItalic;
 }
+
 .invisible{
     color: rgba(255, 255, 255, 0);
 }
@@ -142,14 +143,20 @@
 
 .numberInput{
     margin-top: 15vh;
+    margin-left: 10vw;
 }
 
+.numberInput2{
+    margin-top: 15vh;
+    margin-left: -6vw;
+}
 .submitNumbers{
     height: 90px;
     width: 200px;
-    margin-left: 145px;
+    margin-left: 300px;
     margin-top: 2vh;
 }
+
 
 .sumReturn{
     margin-top: -25vh;
@@ -167,12 +174,33 @@
     background-size: cover;
 }
 
+.questionNameInput{
+    margin-left: 10vw;
+    margin-top: 25vh;
+    height: 50px;
+    text-align: center;
+}
+
+.questionWakeInput{
+    margin-left: 10vw;
+    margin-top: 2vh;
+    height: 50px;
+    text-align: center;
+}
+
+.questionButton{
+    margin-left: 290px;
+    height: 70px;
+}
+
 .questionAnswered{
-    /* margin-left: 36vw; */
-    color: rgb(94, 0, 80);
+    margin-left: 70vw;
+    margin-top: -5vh;
+    color: rgb(0, 0, 0);
     font-size: 50px;
-    -webkit-text-stroke: 1.5px rgb(163, 163, 163);
+    -webkit-text-stroke: 1.5px rgb(255, 255, 255);
     font-family: Berkshire;
+    position: absolute;
 }
 
 .bgPage4{
@@ -182,11 +210,29 @@
 }
 
 .greaterOrLess{
-    margin-left: 36vw;
-    color: rgb(0, 61, 174);
+    margin-left: 43vw;
+    margin-top: 10vh;
+    color: rgb(0, 22, 63);
     font-size: 50px;
     -webkit-text-stroke: 1.5px rgb(255, 0, 0);
     font-family: Berkshire;
+}
+
+.greaterInput{
+    margin-top: 15vh;
+    margin-left: 38vw;
+}
+
+.lesserInput{
+    margin-top: 15vh;
+    margin-left: 3vw;
+}
+
+.compareNumbers{
+    height: 90px;
+    width: 200px;
+    margin-left: 45vw;
+    margin-top: 2vh;
 }
 
 .bgPage5{
@@ -214,10 +260,11 @@
 
 .madlibStory{
     color: white;
-    -webkit-text-stroke: 0.1px rgb(0, 0, 0);
+    background-color: rgba(0, 125, 31, 0.771);
     position: absolute;
     margin-left: -3vw;
-    padding-right: 2vw;
+    padding-right: 1vw;
+    margin-right: 3vw;
 }
 
 .bgPage6{
@@ -226,12 +273,24 @@
     background-size: cover;
 }
 
+.oddOrEvenInput{
+    margin-top: 20vh;
+    margin-left: 4vw;
+    height: 50px;
+    text-align: center;
+}
+
+.oddOrEvenButton{
+    margin-left: -2.5vw;
+    height: 50px;
+}
+
 .oddOrEvenReturn{
-    margin-top: 40vh;
-    margin-left: -12vw;
-    color: rgb(255, 4, 0);
-    font-size: 50px;
-    -webkit-text-stroke: 1.5px rgb(0, 187, 211);
+    margin-top: 30vh;
+    margin-left: -15vw;
+    color: rgb(248, 165, 0);
+    font-size: 60px;
+    -webkit-text-stroke: 1.5px rgb(0, 126, 27);
     font-family: Berkshire;
 }
 
@@ -242,22 +301,25 @@
 }
 
 .reverseInput{
-    margin-left: 45vw;
+    margin-left: 41vw;
+    text-align: center;
 }
 
 .reverseButton{
     margin-left: 54vw;
     position: absolute;
+    width: 90px;
 }
 
 .reverseReturn{
-    margin-left: 38vw;
-    margin-top: 45vh;
+    margin-left: 30vw;
+    margin-top: 53vh;
     position: absolute;
     color: rgb(255, 255, 255);
-    font-size: 50px;
-    -webkit-text-stroke: 1.5px rgb(0, 141, 23);
-    font-family: Berkshire;
+    background-color: black;
+    font-size: 35px;
+    /* -webkit-text-stroke: 1px rgb(0, 0, 0); */
+    font-family: Philosopher;
 }
 
 .bgPage8{
@@ -269,10 +331,48 @@
 .directoryReturn{
     margin-left: 50vw;
     margin-top: 20vh;
-    color: rgb(219, 0, 0);
-    font-size: 30px;
-    -webkit-text-stroke: 1.5px rgb(219, 138, 0);
+    color: rgb(135, 22, 0);
+    font-size: 40px;
+    -webkit-text-stroke: 1.5px rgb(188, 119, 0);
     font-family: Berkshire;
+    position: absolute;
+}
+.directoryReturn2{
+    margin-left: 50vw;
+    margin-top: 27vh;
+    color: rgb(135, 22, 0);
+    font-size: 40px;
+    -webkit-text-stroke: 1.5px rgb(188, 119, 0);
+    font-family: Berkshire;
+    position: absolute;
+}
+.directoryReturn3{
+    margin-left: 50.3vw;
+    margin-top: 35vh;
+    color: rgb(135, 22, 0);
+    font-size: 40px;
+    -webkit-text-stroke: 1.5px rgb(188, 119, 0);
+    font-family: Berkshire;
+    position: absolute;
+}
+.directoryReturn4{
+    margin-left: 50vw;
+    margin-top: 43vh;
+    color: rgb(135, 22, 0);
+    font-size: 40px;
+    -webkit-text-stroke: 1.5px rgb(188, 119, 0);
+    font-family: Berkshire;
+    position: absolute;
+}
+.directoryReturn5{
+    margin-left: 50vw;
+    margin-top: 50vh;
+    color: rgb(135, 22, 0);
+    font-size: 40px;
+    -webkit-text-stroke: 1.5px rgb(188, 119, 0);
+    font-family: Berkshire;
+    position: absolute;
+    padding-right: 150px;
 }
 
 .directoryLookup{
@@ -305,9 +405,9 @@
 .pickedRestaurant{
     margin-left: 13vw;
     margin-top: 5vh;
-    color: rgb(193, 106, 0);
+    color: rgb(0, 0, 0);
     font-size: 50px;
-    -webkit-text-stroke: 1.5px rgb(0, 0, 0);
+    -webkit-text-stroke: 1.5px rgb(255, 136, 0);
     font-family: Berkshire;
     position: absolute;
 }

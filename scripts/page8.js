@@ -11,11 +11,15 @@ textSubBtn.addEventListener("click", function () {
     
     function urlCall(url) {
         fetch(url).then(
-            response => response.text()
+            response => response.json()
         ).then(
             data => {
-                infoReturn.textContent = data
-                console.log(data)
+                infoReturn.textContent = "First Name: " + data.firstName;
+                lastReturn.textContent = "Last Name: " + data.lastName;
+                slackReturn.textContent = "Slack Name: " + data.slackName;
+                emailReturn.textContent = "Email: " + data.email;
+                hobbiesReturn.textContent = "Hobbies: " + data.hobbies;
+                console.log(data.firstName)
             }
         )
     }
