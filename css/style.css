@@ -167,6 +167,14 @@
     background-size: cover;
 }
 
+.questionAnswered{
+    /* margin-left: 36vw; */
+    color: rgb(94, 0, 80);
+    font-size: 50px;
+    -webkit-text-stroke: 1.5px rgb(163, 163, 163);
+    font-family: Berkshire;
+}
+
 .bgPage4{
     background-image: url(../Assets/beautiful-studio-ghibli-scenery-forest.jpg);
     background-repeat: no-repeat;
@@ -218,16 +226,63 @@
     background-size: cover;
 }
 
+.oddOrEvenReturn{
+    margin-top: 40vh;
+    margin-left: -12vw;
+    color: rgb(255, 4, 0);
+    font-size: 50px;
+    -webkit-text-stroke: 1.5px rgb(0, 187, 211);
+    font-family: Berkshire;
+}
+
 .bgPage7{
     background-image: url(../Assets/GnomeTreeHouse.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.reverseInput{
+    margin-left: 45vw;
+}
+
+.reverseButton{
+    margin-left: 54vw;
+    position: absolute;
+}
+
+.reverseReturn{
+    margin-left: 38vw;
+    margin-top: 45vh;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    -webkit-text-stroke: 1.5px rgb(0, 141, 23);
+    font-family: Berkshire;
+}
+
 .bgPage8{
     background-image: url(../Assets/ShrekBook.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.directoryReturn{
+    margin-left: 50vw;
+    margin-top: 20vh;
+    color: rgb(219, 0, 0);
+    font-size: 30px;
+    -webkit-text-stroke: 1.5px rgb(219, 138, 0);
+    font-family: Berkshire;
+}
+
+.directoryLookup{
+    margin-left: 15vw;  
+}
+
+.directoryButton{
+    margin-left: 22vw;
+    height: 50px;
+    width: 150px;
 }
 
 .bgPage9{
@@ -237,3 +292,22 @@
     background-color: rgba(76, 133, 3, 0.678);
 }
 
+.restaurantQuality{
+    margin-left: 20vw;
+    margin-top: 10vh;
+}
+
+.restaurantButton{
+    margin-left: 28vw;
+    margin-top: 5vh;
+}
+
+.pickedRestaurant{
+    margin-left: 13vw;
+    margin-top: 5vh;
+    color: rgb(193, 106, 0);
+    font-size: 50px;
+    -webkit-text-stroke: 1.5px rgb(0, 0, 0);
+    font-family: Berkshire;
+    position: absolute;
+}
