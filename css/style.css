@@ -210,12 +210,12 @@
 }
 
 .greaterOrLess{
-    margin-left: 43vw;
-    margin-top: 10vh;
-    color: rgb(0, 22, 63);
+    margin-left: 41vw;
+    margin-top: 6vh;
+    color: rgb(0, 41, 118);
     font-size: 50px;
     -webkit-text-stroke: 1.5px rgb(255, 0, 0);
-    font-family: Berkshire;
+    font-family: Philosopher;
 }
 
 .greaterInput{
@@ -330,7 +330,7 @@
 
 .directoryReturn{
     margin-left: 50vw;
-    margin-top: 20vh;
+    margin-top: 15vh;
     color: rgb(135, 22, 0);
     font-size: 40px;
     -webkit-text-stroke: 1.5px rgb(188, 119, 0);
@@ -339,7 +339,7 @@
 }
 .directoryReturn2{
     margin-left: 50vw;
-    margin-top: 27vh;
+    margin-top: 22vh;
     color: rgb(135, 22, 0);
     font-size: 40px;
     -webkit-text-stroke: 1.5px rgb(188, 119, 0);
@@ -348,7 +348,7 @@
 }
 .directoryReturn3{
     margin-left: 50.3vw;
-    margin-top: 35vh;
+    margin-top: 30vh;
     color: rgb(135, 22, 0);
     font-size: 40px;
     -webkit-text-stroke: 1.5px rgb(188, 119, 0);
@@ -357,7 +357,7 @@
 }
 .directoryReturn4{
     margin-left: 50vw;
-    margin-top: 43vh;
+    margin-top: 38vh;
     color: rgb(135, 22, 0);
     font-size: 40px;
     -webkit-text-stroke: 1.5px rgb(188, 119, 0);
@@ -366,7 +366,7 @@
 }
 .directoryReturn5{
     margin-left: 50vw;
-    margin-top: 50vh;
+    margin-top: 45vh;
     color: rgb(135, 22, 0);
     font-size: 40px;
     -webkit-text-stroke: 1.5px rgb(188, 119, 0);
@@ -376,6 +376,7 @@
 }
 
 .directoryLookup{
+    margin-top: 5vh;
     margin-left: 15vw;  
 }
 
@@ -398,16 +399,40 @@
 }
 
 .restaurantButton{
-    margin-left: 28vw;
+    margin-left: 22vw;
     margin-top: 5vh;
+    width: 150px;
+    height: 50px;
+}
+
+.restaurantBadButton{
+    margin-left: 10vw;
+    margin-top: 15vh;
+    width: 150px;
+    height: 100px;
+}
+
+.restaurantDecentButton{
+    margin-left: -3vw;
+    margin-top: 15vh;
+    width: 150px;
+    height: 100px;
+}
+
+.restaurantGoodButton{
+    margin-left: -8vw;
+    margin-top: 15vh;
+    width: 150px;
+    height: 100px;
 }
 
 .pickedRestaurant{
-    margin-left: 13vw;
-    margin-top: 5vh;
+    margin-left: 7vw;
+    margin-top: 15vh;
     color: rgb(0, 0, 0);
+    background-color: rgba(100, 58, 0, 0.649);
     font-size: 50px;
-    -webkit-text-stroke: 1.5px rgb(255, 136, 0);
-    font-family: Berkshire;
+    -webkit-text-stroke: 1.5px rgb(232, 123, 0);
+    font-family: Philosopher;
     position: absolute;
 }
